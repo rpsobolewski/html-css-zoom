@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 header {
@@ -19,6 +20,34 @@ header {
     align-items: center;
     font-size: 15px;
 }
+main{
+    margin: auto;
+    margin-top: 50px;
+    
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100%/7);
+    height: 100%;
+    padding: 4px;
+    position: relative;
+}
+.lable{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.349);
+    position: absolute;
+    bottom: 10%;
+    padding: 2px;
+}
+
+img{
+    width: 100%;
+
+}
 
 footer{
     background-color: #222222;
@@ -29,6 +58,10 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.end:hover{
+    background-color: #a0a0a0;
+    cursor: pointer;
 }
 
 a{
