@@ -19,6 +19,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     font-size: 15px;
+    z-index: 1;
 }
 main{
     margin: auto;
