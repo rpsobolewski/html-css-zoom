@@ -20,12 +20,72 @@ header {
     font-size: 15px;
 }
 
+footer{
+    background-color: #222222;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer i{
+    font-size: 30px;
+    padding-bottom: 3px;
+}
+
+.fa-chevron-down, .fa-chevron-up{
+    font-size: 15px;
+    
+}
+.fa-share-from-square{
+
+    color: #4BC800;
+}
 .icons a {
     background-color: #4A4A4A;
-    color: white;
     padding: 7px;
-    text-decoration: none;
     border-radius: 5px;
     margin-right: 5px;
 
 }
+.it{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.end{
+    background-color: #4A4A4A;
+    padding: 1rem;
+}
+.end a{
+
+    color: red;
+}
+/*col*/
+.col-2{
+    height: 100%;
+    width: calc(100%/12)*2;
+    display: flex;
+    align-items: center;
+    
+
+}
+.col-8{
+    height: 100%;
+    width: calc(100%/12)*8;
+     display: flex;
+    align-items: center;
+    
+}
+/*col*/
